@@ -18,7 +18,7 @@ public class Customer {
         this.email = email;
     }
     @Override
-    public String getEmail() {
-        return null;
+    public String toString(){
+        return"First Name: " +this.firstName+"Last Name: " +this.lastName+"email: " +this.email;
     }
 }
