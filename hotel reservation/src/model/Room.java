@@ -2,6 +2,9 @@ package model;
 
 public class Room implements IRoom{
 
+    public Room(String roomNumber, double roomPrice, RoomType enumeration) {
+    }
+
     @Override
     public String getRoomNumber() {
         return null;
